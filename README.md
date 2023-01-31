@@ -16,7 +16,7 @@ https://github.com/pivotal-Josh-Gainey/goserviceexample.git
 
 2 - `cd` into `goserviceexample` folder, make desired edits to manifest if applicable, and run `cf push`
 
-This pushes the application with a process healthcheck (means it doesn't have to listen on port 8080).
+This pushes the application with a process healthcheck.
 
 
 
