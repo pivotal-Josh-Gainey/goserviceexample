@@ -6,7 +6,7 @@ This application has 2 endpoints:<br>
 ```/ ``` returns "Hello World!" <br>
 ```/get-random-number``` returns a random number<br>
 
-It is possible to deploy this app on a custom port with an environment variable in the manifest. 
+It is possible to instruct this app to listen on a custom port with an environment variable in the manifest. 
 Specify TCPPORT env var with the port desired for app to listen on. In the provided example manifest, this env var is set to 8095.
 
 1 - clone this repo:
