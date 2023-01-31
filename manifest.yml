@@ -1,0 +1,7 @@
+applications:
+  - name: goserviceexample
+    memory: 1G
+    health-check-type: process
+    buildpack: binary_buildpack
+    env:
+      TCPPORT: 8095
